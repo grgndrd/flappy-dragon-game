@@ -18,7 +18,7 @@ gradient.addColorStop("0.6", "#fff");
 gradient.addColorStop("0.9", "#fff");
 
 const background = new Image();
-background.src = "docs/assets/BG.png";
+background.src = "./docs/assets/BG.png";
 const BG = {
   x1: 0,
   x2: canvas.width,

@@ -1,5 +1,5 @@
 const dragonSprite = new Image();
-dragonSprite.src = "/docs/assets/spritesheet.png";
+dragonSprite.src = "./docs/assets/spritesheet.png";
 class Bird {
   constructor() {
     this.x = 150;
