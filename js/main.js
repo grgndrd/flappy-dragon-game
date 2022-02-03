@@ -18,7 +18,7 @@ gradient.addColorStop("0.6", "#fff");
 gradient.addColorStop("0.9", "#fff");
 
 const background = new Image();
-background.src = "/BG.png";
+background.src = "/docs/assets/BG.png";
 const BG = {
   x1: 0,
   x2: canvas.width,
@@ -62,10 +62,11 @@ window.addEventListener("keydown", function (event) {
 
 window.addEventListener("keyup", function (event) {
   if (event.code === "Space") spacePressed = false;
+  bird.frameX = 0;
 });
 
 const bang = new Image();
-bang.src = "";
+bang.src = "/docs/assets/bangcomic.png";
 function handleCollisions() {
   for (let i = 0; i < obstaclesArray.length; i++) {
     if (
