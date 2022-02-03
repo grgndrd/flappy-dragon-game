@@ -66,7 +66,7 @@ window.addEventListener("keyup", function (event) {
 });
 
 const bang = new Image();
-bang.src = "/docs/assets/bangcomic.png";
+bang.src = "./docs/assets/bangcomic.png";
 function handleCollisions() {
   for (let i = 0; i < obstaclesArray.length; i++) {
     if (
