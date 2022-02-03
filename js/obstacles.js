@@ -6,7 +6,7 @@ class Obstacle {
     this.bottom = (Math.random() * canvas.height) / 3 + 20;
     this.x = canvas.width;
     this.width = 20;
-    this.color = "hsl(" + hue + ",100%, 50%, 0.8)";
+    this.color = "black";
     this.counted = false;
   }
   draw() {
